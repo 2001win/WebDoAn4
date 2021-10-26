@@ -1,0 +1,71 @@
+#canvas{
+    position: absolute;
+    top: 10rem;
+    left: 5rem;
+    z-index:1;
+ }
+.video{
+  float: left;
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+#video{
+    z-index:-1;
+    border-radius: 10px;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.4);
+}
+.btn__group { 
+  margin-top: 2rem;
+  position: absolute;
+  width: 50rem;
+  height: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+.btn__toggle {
+  width: 10rem;
+  color: #fff;
+  font-weight: 400;
+  background-image: linear-gradient(to left bottom,#f7865a,#f15517 );
+  border-radius: 8px;
+  outline: none;
+  border-style: none;
+}
+.card {
+  background-color: #fff; 
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.4);
+  margin-top: 5rem;
+  margin-left: 10rem;
+  border-radius: 8px;
+  display: inline-block;
+  width: 45rem;
+  height: 37.5rem;
+}
+.card__heading{
+  text-align: center;
+  color: rgb(145, 143, 143);
+  font-size: 3rem;
+}
+.card__list{
+  list-style-type: none;
+}
+.card__item{
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+  padding: 0.2rem 5rem;
+  border-bottom: 2px solid rgb(131, 121, 121);
+}
+.card__item-heading{
+  width: 75%;
+  font-size: 3rem;
+  background-image: linear-gradient(to left bottom,#f7865a 50%,#f15517 30%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color:transparent;
+}
+.card__item-detail{
+  font-size: 2.5rem;
+  color: grey;
+  text-transform: uppercase;
+}
